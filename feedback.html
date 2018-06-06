@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="img/img.jpg">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Tabletop Game Cafe">
+    <meta name="author" content="Dan Quinn">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <link href="stylesheets/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand">
+    <img src="img/logo-nav-small.png" class="d-inline-block align-top">
+  </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarNavDropdown" class="navbar-collapse collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="menu.html">Menu <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="games.html">Games</a>
+                </li>
+
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link"><span onclick="openNav()"><img class="order-size" src="img/order.png"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"><span onclick="openNav2()"><img class="hamburger-size" src="img/hamburger.png"></span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="sidenav-content">
+            <img src="img/IndexLogoSide.png" class="sideLogo">
+            <br>
+            <br>
+            <div class="order-title">
+                <h2> Your Order </h2>
+            </div>
+            <hr>
+            <div class="order-box">
+                Cappucino
+                <div class="price"> $5.00 <input type="checkbox" class="check"></div>
+            </div>
+            <div class="order-box">
+                Iced Coffee
+                <div class="price"> $8.00 <input type="checkbox" class="check"></div>
+            </div>
+            <div class="order-box">
+                Flat White
+                <div class="price"> $5.00 <input type="checkbox" class="check"></div>
+            </div>
+            <div class="order-box">
+                Iced Chocolate
+                <div class="price"> $7.50 <input type="checkbox" class="check"></div>
+            </div>
+            <br>
+            <button class="btn"><a href="javascript:void(0)" onclick="closeNav()">Submit</a></button>
+        </div>
+    </div>
+
+    <div id="mySidenav2" class="sidenav2">
+        <a href="javascript:void(0)" class="closebtn2" onclick="closeNav2()">&times;</a>
+        <div class="sidenav-content2">
+            <div class="sidenav-content2-title">
+                <br>
+                <p><strong><em>Further Information</em></strong></p>
+                <br>
+                <br>
+            </div>
+            <div class="sidemenuexpanded">
+                <div class="menu-fi">
+                    Request Assitance
+                </div>
+                <div class="menu-fi">
+                    About Us
+                </div>
+                <div class="menu-fi">
+                    Feedback
+                </div>
+                <div class="menu-fi">
+                    Te Reo
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="body">
+        <div class="alert alert-danger alert-width" role="alert">
+            <br><strong>Under Construction</strong> <br>Please be patient this page is under construction!
+        </div>
+    </div>
+
+
+
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+    <footer>
+        Terms and Conditions | Privacy Policy
+    </footer>
+</body>
+
+</html>

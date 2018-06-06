@@ -1,0 +1,384 @@
+
+/* Box Sizing Reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+/* Root Elements */
+
+body, html {
+    font-family: 'Montserrat' Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    padding-top: 10px;
+    text-align: center;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    color: orange;
+    background-color: orange;
+}
+
+/* Top Navbar */
+
+.navbar-brand {
+  padding: 0px;
+}
+
+/* Nav Icons */
+
+.order-size {
+    width: 40px;
+    height: 40px;
+}
+
+.hamburger-size {
+    width: 40px;
+    height: 40px;
+}
+
+/* Side Menu is heavily based on the one at W3SChools */
+
+/* The side navigation menu */
+
+.sidenav { 
+    height: 100%; 
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    right: 0;
+    background-color: #F26822;
+    overflow-x: hidden;
+    padding-top: 60px; 
+    transition: 0.5s; 
+}
+
+/* The navigation menu links */
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #111;
+    display: block;
+    transition: 0.3s
+}
+
+/* Position and style the close button (top right corner) */
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+.sideLogo {
+    width: 10cm;
+    height: 6cm;
+    position: relative;
+    margin-top: -20px;
+    padding: 0px 0px 0px 20px; /* Top Right Bottom Left */
+}
+
+
+/*.order-title {
+    
+}  */
+
+.description {
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: -20px;
+}
+
+.alert-width {
+    height: 120px;
+    text-align: center;
+    position: relative;
+}
+/* -------------------------------------------------------------------------------------------- */
+                                        /* Side Nav Two */
+/* -------------------------------------------------------------------------------------------- */
+
+.sidemenuexpendad {
+    text-align: center;
+}
+
+.menu-fi {
+    text-align: center;
+    background-color: darkgrey;
+    width: 400px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid black;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.sidenav-content2-title {
+    text-align: center;
+    font-size: 35px;
+}
+
+.sidenav2 {
+    height: 100%;
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    right: 0;
+    background-color: #F26822;
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s;
+}
+
+
+.sidenav2 a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #111;
+    display: block;
+    transition: 0.3s
+}
+
+/* Position and style the close button (top right corner) */
+
+.sidenav2 .closebtn2 {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Opacity */ 
+
+.transparent {
+	zoom: 1;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+body {
+    background-image: url(../img/boardgame.jpeg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Footer */
+
+.body {
+    padding:10px;
+    padding-bottom:22px;	/* Height of the footer */
+}
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:22px;			/* Height of the footer */
+} 
+
+.btn-group {
+    position: relative;
+    margin: 0 auto;
+    opacity: 0.8;
+    color: darkgrey;
+    text-decoration: none;
+}
+
+/* Menu Buttons */
+
+.container {
+    width:100%;
+    text-align:center;
+    padding: 100px;
+}
+
+.menu {
+    float:left;
+    width:auto;
+    height: 40px;
+    text-align: center;
+}
+
+.games {
+    display: inline-block;
+    margin:0 auto;
+    width:auto;
+    height: 40px;
+    text-align: center;
+}
+
+.feedback {
+    float:right;
+    width:auto;
+    height: 40px;
+    text-align: center;
+}
+
+.index-btn {
+    text-align: center;
+    opacity: 0.6;
+}
+
+/* content */
+
+.main {
+    display: block;
+    height: autp;
+    min-height: auto;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: #d3d3d3;
+    opacity: 0.7;
+}
+
+/* Menu */
+
+.menu-box {
+    float: left;
+    width: 400px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid black;
+    background-color: #fff;
+    font-weight: 900;
+}
+
+.menu-box-right {
+    float: right;
+    width: 400px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid black;
+    background-color: #fff;
+    font-weight: 900;
+}
+
+.menu-title {
+    float: left;
+    width: 400px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+
+.menu-title-right {
+    float: right;
+    width: 400px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.price {
+    float: right;
+    padding-left: 10px;
+}
+
+.check {
+    padding-left: 2px;
+}
+
+/* Modal Styling */
+.modal-btn {
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Slide Nav Content */
+
+.sidenav-content {
+    text-align: center;
+}
+
+/* Order Box */
+
+.order-box {
+    float: left;
+    width: 400px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid black;
+    background-color: #fff;
+    font-weight: 900;
+}

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="img/img.jpg">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Tabletop Game Cafe">
+    <meta name="author" content="Dan Quinn">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <link href="stylesheets/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand">
+    <img src="img/logo-nav-small.png" class="d-inline-block align-top">
+  </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarNavDropdown" class="navbar-collapse collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="games.html">Games <span class="sr-only">(current)</span></a>
+                </li>
+
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link"><span onclick="openNav()"><img class="order-size" src="img/order.png"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"><span onclick="openNav2()"><img class="hamburger-size" src="img/hamburger.png"></span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="sidenav-content">
+            <img src="img/IndexLogoSide.png" class="sideLogo">
+            <br>
+            <br>
+            <div class="order-title">
+                <h2> Your Order </h2>
+            </div>
+            <hr>
+            <div class="order-box">
+                Cappucino
+                <div class="price"> $5.00 <input type="checkbox" class="check"></div>
+            </div>
+            <div class="order-box">
+                Iced Coffee
+                <div class="price"> $8.00 <input type="checkbox" class="check"></div>
+            </div>
+            <div class="order-box">
+                Flat White
+                <div class="price"> $5.00 <input type="checkbox" class="check"></div>
+            </div>
+            <div class="order-box">
+                Iced Chocolate
+                <div class="price"> $7.50 <input type="checkbox" class="check"></div>
+            </div>
+            <br>
+            <button class="btn"><a href="javascript:void(0)" onclick="closeNav()">Submit</a></button>
+        </div>
+    </div>
+
+    <div id="mySidenav2" class="sidenav2">
+        <a href="javascript:void(0)" class="closebtn2" onclick="closeNav2()">&times;</a>
+        <div class="sidenav-content2">
+            <div class="sidenav-content2-title">
+                <br>
+                <p><strong><em>Further Information</em></strong></p>
+                <br>
+                <br>
+            </div>
+            <div class="sidemenuexpanded">
+                <div class="menu-fi">
+                    Request Assitance
+                </div>
+                <div class="menu-fi">
+                    About Us
+                </div>
+                <div class="menu-fi">
+                    Feedback
+                </div>
+                <div class="menu-fi">
+                    Te Reo
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="body">
+        <div class="main">
+            <h1> Games </h1>
+            <br>
+            <div class="description">
+                <p><strong> This page is where you can find all of our games and read up on their rules you can do this by clicking on their images. :D </strong></p>
+            </div>
+            <div class="container">
+
+                <div class="row text-center text-lg-left">
+
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="description">Settlers of Catan</div>
+                        <a href="#" class="d-block mb-4 h-100"><button class="myBtn_multi" id="modalbtn1"><img class="img-fluid img-thumbnail" src="img/catan.jpg" width="500" height="500" alt="Settlers of Catan"></button></a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="description">Carcassonne</div>
+                        <a href="#" class="d-block mb-4 h-100"><button class="myBtn_multi" id="modalbtn2"><img class="img-fluid img-thumbnail" src="img/carcassonne.jpg" width="500" height="500" alt="Carcassonne"></button></a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="description">Legend of Zelda Clue</div>
+                        <a href="#" class="d-block mb-4 h-100"><button class="myBtn_multi" id="modalbtn3"><img class="img-fluid img-thumbnail" src="img/loz.jpg" width="500" height="500" alt="Legend of Zelda Cluedo"></button></a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="description">Ticket To Ride</div>
+                        <a href="#" class="d-block mb-4 h-100"><button class="myBtn_multi" id="modalbtn4"><img class="img-fluid img-thumbnail" src="img/ticket.jpg" alt="Ticket To Ride"></button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal modal_multi">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close close_multi">×</span>
+            <p><strong><em>This boardgame is Settlers of Catan.</em></strong></p>
+
+            <p><strong>Setup:</strong> Setup the board as either a copy of the introductory setup, randomly flip over tiles
+                and place the numbers in alphabetical order spiraling in, or completely randomly tiles and numbers.</p>
+
+            <p><strong>Advanced Setup:</strong> If using a random board, choose settlement placements in player order, then
+                a second settlement in backwards order, with a road attached to each.</p>
+
+            <p><strong>Playing Development Cards:</strong> For your turn, you can play 1 development card at any time (including
+                before you roll), but not one that you bought that turn.
+
+                <p><strong>Income:</strong> Roll dice for income that turn - everyone with settlements/cities next to a tile
+                    with that number gets one/two of that resource per settlement/city adjacent to it (respectively).</p>
+
+                <p><strong>The Robber:</strong> If you roll a 7, you must move the robber (that weird bowling pin looking thing)
+                    to any hex of your choice. Then choose a player that has a settlement/city next to that hex. Steal a
+                    card at random from their hand. While the robber stays their, that hex doesn't produce anything (you
+                    can signify this by putting him on top of the number.) Using a Knight card allows you to perform this
+                    entire action immediately. Then, if this was a 7-roll (not a Knight), each player with 8+ resource cards
+                    in hand (not development cards) discards half of their choice, keeping rounded up.</p>
+
+                <p><strong>Buy/Trade:</strong> Then you can offer/receive trades and buy things. People can only trade with
+                    the current player. The offers do not have to be equal, they often won't be. I.e. if everyone wants to
+                    build a city, then Ore and Grain will be at a premium.</P>
+
+                <p><strong>Bank Exchange:</strong> The current player can also trade with the bank, either 4 of a single thing
+                    for 1 of anything (always an option), or use a port (i.e. 3:1 of any single resource, or 2:1 of a specific
+                    resource type for 1 of anything, instead) if you have a settlement/city on that port (there are 2 spots
+                    for each port.)</p>
+
+                <p><strong>What to Buy:</strong> There are 4 things you can buy: Roads, Settlements, Cities (an upgrade), and
+                    Development Cards. You can buy any number of them. (Use the 4 reference cards that come with the game
+                    for the costs.)</p>
+
+                <p><strong>Roads:</strong> You must have roads going from one of your settlements/cities to the location you
+                    are building a new settlement. Your starting settlements do not need to be connected to each other.</p>
+
+                <p><strong>End Your Turn:</strong> Then you pass the turn to the next player, and they start by either playing
+                    a development card or rolling the dice.</p>
+
+                <p><strong>Victory:</strong> You win when you have 10 points - 1 point per settlement, 2 points per city, 2
+                    points for Largest Army (Minimum 3+) and/or Longest Road (Single continuous branch, no double counting,
+                    Minimum 5+), 1 point for victory point development cards (which are 5/25 development cards.)</p>
+
+                <p><strong>Victory point Development Cards:</strong> Victory point development cards are special. They're the
+                    only ones that may be played all at the same time, immediately, when you would win as a result. Otherwise,
+                    you must hold them and, if you want, perhaps pretend that they aren't victory point cards that could
+                    win you the game next turn if they let you do that one last trade.</p>
+        </div>
+
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal modal_multi">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close close_multi">×</span>
+            <p><strong><em>This boardgame is Carcassonne</em></strong></p>
+        </div>
+
+    </div>
+
+    <div class="modal modal_multi">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close close_multi">×</span>
+            <p><strong><em>This boardgame is Legend of Zelda Clue/Cluedo</em></strong></p>
+        </div>
+
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal modal_multi">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close close_multi">×</span>
+            <p><strong><em>This boardgame is Ticket To Ride</em></strong></p>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+    <footer>
+        Terms and Conditions | Privacy Policy
+    </footer>
+</body>
+
+</html>
